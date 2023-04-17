@@ -1,6 +1,6 @@
 ## Camel-5B Truss
 
-This is a [Truss](https://truss.baseten.co/) for Camel-5B, a 5 billion parameter model trained by [Writer](https://writer.com/)t. This README will walk you through how to deploy this Truss on Baseten to get your own instance of Camel-5B.
+This is a [Truss](https://truss.baseten.co/) for Camel-5B, a 5 billion parameter model trained by [Writer](https://writer.com/). This README will walk you through how to deploy this Truss on Baseten to get your own instance of Camel-5B.
 
 ## Truss
 
