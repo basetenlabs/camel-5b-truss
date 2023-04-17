@@ -1,10 +1,10 @@
 ## Camel-5B Truss
 
-This is a [Truss](https://truss.baseten.co/) for Camel-5B, a 5 billion parameter model trained by Writer. This README will walk you through how to deploy this Truss on Baseten to get your own instance of Camel-5B.
+This is a [Truss](https://truss.baseten.co/) for Camel-5B, a 5 billion parameter model trained by [Writer](https://writer.com/)t. This README will walk you through how to deploy this Truss on Baseten to get your own instance of Camel-5B.
 
 ## Truss
 
-Truss is an open-source model serving framework developed by Baseten. It allows you to develop and deploy machine learning models onto Baseten (and other platforms like [AWS](https://truss.baseten.co/deploy/aws) or [GCP](https://truss.baseten.co/deploy/gcp). Using Truss, you can develop a GPU model using [live-reload](https://baseten.co/blog/technical-deep-dive-truss-live-reload), package models and their associated code, create Docker containers and deploy on Baseten.
+Truss is an open-source model serving framework developed by Baseten. It allows you to develop and deploy machine learning models onto Baseten (and other platforms like [AWS](https://truss.baseten.co/deploy/aws) or [GCP](https://truss.baseten.co/deploy/gcp)). Using Truss, you can develop a GPU model using [live-reload](https://baseten.co/blog/technical-deep-dive-truss-live-reload), package models and their associated code, create Docker containers and deploy on Baseten.
 
 ## Deploying Camel
 
