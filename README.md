@@ -86,3 +86,15 @@ curl -X POST " https://app.baseten.co/models/YOUR_MODEL_ID/predict" \
          }'
 
 ```
+
+## Contributing
+
+We're always looking for contributors and we're excited to welcome contributions. Some guidelines to follow: 
+
+1. Choose an issue to work on: Check the project's issue tracker for open issues that you can work on. Look for issues that are labeled "help wanted" or "good first issue" if you're new to the project.
+
+2. Discuss your ideas: Before starting to work on an issue or feature, it's a good idea to discuss your plans with the project maintainers. Leave a comment on the issue, or create a new issue if one doesn't exist for your proposed changes.
+
+3. When your PR is ready, tag one of the maintainers of this repository (@aspctu, @amiruci, or @bolasim) forr a review. Do not commit to `main` directly, all PRs must go through a review process. 
+
+By following these guidelines, you can contribute effectively to the project and help maintain a high-quality codebase. Thank you for your interest in contributing to our project!
