@@ -72,6 +72,11 @@ request = {
 response = model.predict(request)
 ```
 
+The response will follow the format
+```
+{'completion': "In a world where humans have colonized the moon, a brilliant scientist discovers a hidden chamber in the lunar crust that holds the key to unlocking the secrets of the universe. Together with a daring team of astronauts, they embark on a daring mission to explore the chamber and unlock its incredible potential. As they venture through the uncharted regions of the moon's surface, they encounter unexpected challenges and uncover a hidden world teeming with life. As the team races against time to return home and share their discovery with the world, they must confront the consequences of their actions and decide whether to embrace a new age of space exploration or return to the safety of Earth."}
+```
+
 You can also invoke your model via a REST API
 ```
 curl -X POST " https://app.baseten.co/models/YOUR_MODEL_ID/predict" \
