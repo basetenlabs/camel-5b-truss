@@ -12,7 +12,7 @@ To deploy the Camel-5B Truss, you'll need to follow these steps:
 
 1. __Prerequisites__: 
 - _Make sure you have a Baseten account and API key. You can sign up for a Baseten account [here](https://app.baseten.co/signup)._
-- _Make sure you are added to the Camel-5B repository [here](https://huggingface.co/Writer/camel-5b) on Huggingface and have your Huggingface API key ready_
+- _You'll also need a Huggingface [API key](https://huggingface.co/settings/tokens)_
 
 2. __Install Truss and the Baseten Python client__: If you haven't already, install the Baseten Python client and Truss in your development environment using:
 ```
@@ -25,7 +25,7 @@ pip install --upgrade baseten truss
 ```
 import truss
 
-camel5b_truss = truss.load("path/to/camel5b_truss")
+camel5b_truss = truss.load("path/to/camel-5b-truss")
 ```
 
 5. __Log in to Baseten__: Log in to your Baseten account using your API key (key found [here](https://app.baseten.co/settings/account/api_keys)):
@@ -37,7 +37,7 @@ baseten.login("PASTE_API_KEY_HERE")
 
 6. __Deploy the Camel-5B Truss__: Deploy the Camel-5B Truss to Baseten with the following command:
 ```
-baseten.deploy(camel5b_truss, publish=True)
+baseten.deploy(camel5b_truss, model_name="Camel-5b", publish=True)
 ```
 
 Once your Truss is deployed, you can start using the Camel-5B model through the Baseten platform! Navigate to the Baseten UI to watch the model build and deploy and invoke it via the REST API.
