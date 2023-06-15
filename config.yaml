@@ -10,6 +10,7 @@ model_class_filename: model.py
 model_class_name: Model
 model_framework: custom
 model_metadata:
+  example_model_input: {"instruction": "Write a story about camels falling in love"}
   avatar_url: https://cdn.baseten.co/production/static/explore/camel-5b-cover.png
   cover_image_url: https://cdn.baseten.co/production/static/explore/camel-5b-cover.png
   tags:
